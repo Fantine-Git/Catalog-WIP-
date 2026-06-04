@@ -1,0 +1,39 @@
+/* Small phones (≤ 480px) */
+@media (max-width: 480px) {
+    .logo img {
+        width: 130px;
+    }
+
+    .cta {
+        padding: 12px 20px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main h2::before,
+    .main h2::after {
+        display: none;
+    }
+
+    .cardContainer {
+        gap: 14px;
+    }
+
+    .card {
+        width: calc(50% - 10px);
+        height: 190px;
+    }
+
+    .card img {
+        max-height: 130px;
+    }
+}
+
+/* Tablets (481px – 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .card {
+        width: 150px;
+        height: 210px;
+    }
+}
