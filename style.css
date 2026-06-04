@@ -138,6 +138,13 @@ main { flex: 1; }
     margin-bottom: 0.2rem;
 }
 
+.filter-subtitle {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 0;
+}
+
 .filter-group label {
     display: flex;
     align-items: center;
