@@ -37,3 +37,16 @@
         height: 210px;
     }
 }
+
+
+
+                <div class="product">
+                    <div class="product-img-wrap">
+                        <img src="#" alt="Product 1">
+                        <span class="badge">NEW</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">name</p>
+                        <p class="product-price">price</p>
+                    </div>
+                </div>
