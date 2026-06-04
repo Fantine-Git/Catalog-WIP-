@@ -116,6 +116,19 @@ main { flex: 1; }
     gap: 0.5rem;
 }
 
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-left: 0.5rem;
+}
+
+.filter-options p{
+    font-size: 0.88rem;
+    font-weight: 600;
+    font-style: bold;
+}
+
 .filter-label {
     font-size: 0.7rem;
     text-transform: uppercase;
